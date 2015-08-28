@@ -36,5 +36,5 @@ gitlab:
     - GITLAB_BACKUP_TIME=01:00
 redis:
   image: sameersbn/redis:latest
-  mem_limit: 512m
+  mem_limit: 256m
   dns: 192.168.122.155
